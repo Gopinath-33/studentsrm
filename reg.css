@@ -1,0 +1,63 @@
+*{
+      padding: 0; 
+      box-sizing: border-box;
+      
+      /*background-image: url(Colljege.webp);
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size:cover ;*/
+}
+body{
+    background: #ccd0cf;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form{
+   
+    width: 25rem;
+    height: 35rem;
+    display: flex;
+    flex-direction: column;
+    background:linear-gradient(rgba(255, 255, 255, 0.08)) ;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.50);
+    border-radius: 30px;
+    border-left:1px solid rgba(255, 255, 255, .3);
+    border-top:1px solid rgba(255, 255, 255, .3) ;
+}
+
+h1{
+    font-size: 30px;
+    text-align: center;
+}
+label{
+    font-size: 20px;
+    margin-left: 10%;
+   
+
+}
+input{
+    
+    background:linear-gradient(rgba(255, 255, 255, 0.08)) ;
+    width: 80%;
+    margin: 5% auto;
+    margin-bottom: 8%;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+}
+button,a{
+    width: 70%;
+    margin: 3% auto;
+    font-size: 15px;
+    
+    padding: 10px 30px;
+    border-radius: 25px;
+    text-align: center;
+    cursor: pointer;
+}
+button:hover{
+     background: rgba(255, 255, 255, 0.3);
+}

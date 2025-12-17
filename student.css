@@ -1,0 +1,51 @@
+*{
+      background: #ccd0cf;    
+      /*background-image: url(College.webp);
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size:100% 100% ;*/
+      color:darkblue;
+}
+input:hover{
+    cursor: pointer;
+    
+    color: black;
+}
+.logo{
+    border-radius: 100% ;
+}
+label{
+    font-size: 20px;
+    margin-left: 10%;
+
+}
+.search{
+     background:linear-gradient(rgba(255, 255, 255, 0.08)) ;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.50);
+    border-radius: 30px;
+    border-left:1px solid rgba(255, 255, 255, .3);
+    border-top:1px solid rgba(255, 255, 255, .3) ;
+}
+input{
+    width: 70%;
+    margin: 5% auto;
+    margin-bottom: 8%;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+}
+button,.search,a{
+    text-decoration: none;
+    color: black;
+    width: 50%;
+    margin: 1% auto;
+    font-size: 15px;
+    background: rgba(255, 255, 255, 0.06);
+    padding: 10px 10px;
+    border-radius: 25px;
+    
+    cursor: pointer;
+}
+button:hover{
+     background: rgba(255, 255, 255, 0.3);
+}

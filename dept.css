@@ -1,0 +1,38 @@
+*{
+      padding: 0; 
+      box-sizing: border-box;
+      background: #ccd0cf;
+      /*background-image: url(College.webp);
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size:cover ;*/
+}
+h1{
+    text-align: center;    
+}
+button{
+    width: 150px;
+    padding: 30px;
+    background:linear-gradient(rgba(255, 255, 255, 0.08)) ;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.50);
+    border-radius: 30px;
+    border-left:0px solid rgba(255, 255, 255, .5);
+    border-top:0px solid rgba(255, 255, 255, .5) ;
+    cursor: pointer;
+    transform: rotateX('angle');
+}
+
+.first{
+    margin-top: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+.second{
+     margin-top: 8%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
